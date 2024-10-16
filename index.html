@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zam's Trip - Company Profile</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(32, 238, 238);
+        color: black;
+        background-image: url("cover.jpg");
+      }
+      .navbar {
+        background-color: #333;
+        padding: 20px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .navbar-brand {
+        font-weight: 600;
+        color: #333 !important;
+      }
+
+      .nav-link {
+        color: #333 !important;
+      }
+
+      .btn-outline-primary {
+        border-radius: 50px;
+        padding: 8px 20px;
+      }
+
+      header {
+        background-size: cover;
+        background-position: bottom;
+        padding: 120px 0;
+        color: white;
+        text-align: center;
+        position: relative;
+      }
+
+      header .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        z-index: 2;
+        position: relative;
+      }
+
+      header p {
+        z-index: 2;
+        position: relative;
+      }
+
+      .about-section {
+        padding: 60px 0;
+        background-color: #fff;
+        text-align: center;
+      }
+
+      .about-section h2 {
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+
+      .about-section p {
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.7;
+      }
+
+      .services-section {
+        padding: 60px 0;
+        background-color: #f5f7fa;
+        text-align: center;
+      }
+
+      .services-section h2 {
+        font-weight: 600;
+        margin-bottom: 40px;
+      }
+
+      .service {
+        padding: 20px;
+      }
+
+      .service img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .service h4 {
+        font-weight: 500;
+        margin-top: 15px;
+      }
+
+      footer {
+        padding: 20px;
+        background-color: #1a73e8;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"> Trip</a>Zam's Trip
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Layanan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-primary ml-3">Sign Up</button>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="overlay"></div>
+      <h1>Zam's Trip</h1>
+      <p>Melayani pemesanan tiket transportasi dengan mudah dan cepat</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+      <h2>Tentang Kami</h2>
+      <p>
+        Zam's Trip adalah penyedia layanan pemesanan tiket transportasi yang
+        modern dan terpercaya. Kami berkomitmen untuk menyediakan solusi
+        perjalanan yang cepat, nyaman, dan aman untuk para pelanggan kami.
+        Dengan berbagai pilihan transportasi dan destinasi, kami siap menemani
+        perjalanan Anda kapan saja dan di mana saja.
+      </p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+      <h2>Layanan Kami</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 service">
+            <img src="bus.jpg" alt="Layanan Bus" />
+            <h4>Pemesanan Tiket Bus</h4>
+            <p>
+              Kami menyediakan layanan pemesanan tiket bus dengan rute terbaik
+              dan armada yang nyaman.
+            </p>
+          </div>
+          <div class="col-md-4 service">
+            <img src="keretaa.jpg" alt="Layanan Kereta Api" />
+            <h4>Pemesanan Tiket Kereta Api</h4>
+            <p>
+              Dapatkan tiket kereta api dengan cepat dan mudah, serta pilih
+              jadwal yang sesuai dengan kebutuhan Anda.
+            </p>
+          </div>
+          <div class="col-md-4 service">
+            <img src="pesawat.jpg" alt="Layanan Pesawat" />
+            <h4>Pemesanan Tiket Pesawat</h4>
+            <p>
+              Kami menawarkan berbagai penerbangan domestik dan internasional
+              untuk memenuhi kebutuhan perjalanan Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Zam's Trip. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
